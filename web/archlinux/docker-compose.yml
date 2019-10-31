@@ -9,7 +9,7 @@ services:
       - "8080:80"
     volumes:
       - ./../app/:/var/www/html
-    network:
+    networks:
       - archlinux
 networks:
   archlinux:
